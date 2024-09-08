@@ -2,10 +2,9 @@ import Teoria from "./Teoria";
 
 const Informacion = () => {
   // aqui agrego la mayor parte de logica
-
+  const anio = new Date().getFullYear();
   return (
-    // algo de logica acá
-    <section>
+        <section>
       <h2>Introduccion a React </h2>
       <p>
         React es una biblioteca de JavaScript desarrollada por Facebook para
@@ -18,7 +17,7 @@ const Informacion = () => {
         aplicaciones a gran escala.
       </p>
       {/* enviar un props */}
-      <Teoria comision='101i'></Teoria>
+      <Teoria comision='101i' anioActual={anio}></Teoria>
     </section>
   );
 };
