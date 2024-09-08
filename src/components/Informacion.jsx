@@ -17,7 +17,8 @@ const Informacion = () => {
         de forma modular, lo que facilita el desarrollo y el mantenimiento de
         aplicaciones a gran escala.
       </p>
-      <Teoria></Teoria>
+      {/* enviar un props */}
+      <Teoria comision='101i'></Teoria>
     </section>
   );
 };
