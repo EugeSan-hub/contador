@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Informacion from './components/Informacion'
 function App() {
   
 
@@ -6,9 +7,10 @@ function App() {
     <main className='container my-4' >  
       <h1 className='text-center'>Primer Proyecto React</h1>
     <p>Lorem  ipsum dolor sit amet consectetur adipisicing elit. <br/>Ex eius cum velit perspiciatis assumenda dicta veritatis libero numquam, vero officia expedita voluptate totam blanditiis reiciendis consequatur enim earum nemo quo!</p>
-      </main>
+     {/* invocar los componentes */}
+     <Informacion></Informacion>
+      </main> 
   
-
   )
 }
 
